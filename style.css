@@ -1,0 +1,57 @@
+.topdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 206);
+    color: white;
+}
+
+
+#topdiv_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    
+}
+
+.topdiv_sub{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.maindiv{
+    display: flex;
+    padding: 20px;
+    /* border: solid red 2px; */
+    background-color: rgb(189, 189, 189);
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv_sub{
+    padding: 20px;
+    /* border: solid red 2px; */
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mytable{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.spcell{
+    display: grid;
+    grid-column: 1/3;
+}
